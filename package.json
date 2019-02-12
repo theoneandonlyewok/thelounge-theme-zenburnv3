@@ -1,25 +1,25 @@
 {
-  "name": "thelounge-theme-solarized",
-  "version": "1.0.38",
-  "description": "A simple theme with Solarized colours",
+  "name": "thelounge-theme-zenburnv3",
+  "version": "0.1",
+  "description": "A zenburn colorspace theme based on Morning.",
   "main": "package.json",
   "thelounge": {
-    "name": "Solarized",
+    "name": "Zenburnv3",
     "type": "theme",
     "css": "theme.css"
   },
   "license": "MIT",
-  "homepage": "https://github.com/thelounge/thelounge-theme-solarized",
+  "homepage": "https://github.com/theoneandonlyewok/thelounge-theme-zenburnv3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thelounge/thelounge-theme-solarized.git"
+    "url": "git+https://github.com/theoneandonlyewok/thelounge-theme-zenburnv3.git"
   },
   "keywords": [
     "thelounge",
     "thelounge-theme"
   ],
   "bugs": {
-    "url": "https://github.com/thelounge/thelounge-theme-solarized/issues"
+    "url": "https://github.com/theoneandonlyewok/thelounge-theme-zenburnv3/issues"
   },
   "devDependencies": {
     "stylelint": "^9.9.0",
