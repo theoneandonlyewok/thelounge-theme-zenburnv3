@@ -10,14 +10,14 @@ GitHub: https://github.com/japesinator
 @import 'default.css';
 
 :root {
-	--body-color: #f3f3f3;
-	--body-color-muted: #b7c5d1;
-	--link-color: #77abd9;
-	--window-bg-color: #303e4a;
+	--body-color: #dcdccc;
+	--body-color-muted: #2b2b2b;
+	--link-color: #8c8cbc;
+	--window-bg-color: #3f3f3f;
 	--date-marker-color: #97ea70;
-	--unread-marker-color: #f92772;
-	--highlight-bg-color: #4d4332;
-	--highlight-border-color: #b08c4f;
+	--unread-marker-color: #dfaf8f;
+	--highlight-bg-color: #2b2b2b;
+	--highlight-border-color: #6f6f6f;
 }
 
 #chat .channel .msg.highlight .time {
@@ -33,7 +33,7 @@ GitHub: https://github.com/japesinator
 }
 
 #chat .userlist .count {
-	background-color: #28333d;
+	background-color: #434443;
 }
 
 #chat .count::before {
@@ -45,7 +45,7 @@ GitHub: https://github.com/japesinator
 #windows #chat .header,
 #chat .user-mode::before,
 #chat .userlist {
-	border-color: #28333d;
+	border-color: #333;
 }
 
 /* User list */
@@ -92,20 +92,20 @@ GitHub: https://github.com/japesinator
 #chat.colored-nicks .user.color-32 { color: #85f27d; }
 
 /* Increase contrast of some IRC colors */
-.irc-fg2 { color: #0074d9; }
+.irc-fg2 { color: #1b94ff; }
 .irc-fg5 { color: #e969a7; }
-.irc-fg12 { color: #50a8ff; }
+.irc-fg12 { color: #6fb7ff; }
 
 /* Message form */
 #form {
-	background-color: #28333d;
-	border-color: #28333d;
+	background: #333;
+	border-color: #101010;
 	color: var(--body-color);
 }
 
 #form #nick {
-	background: #242a33;
-	color: #f3f3f3;
+  background: #101010;
+  color: var(--body-color);
 }
 
 #windows .window {
